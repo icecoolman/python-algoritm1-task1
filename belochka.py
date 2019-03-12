@@ -5,6 +5,9 @@ def squirrel (N):
         sum = sum*i
     while(sum > 1):
         sum = sum/10
-    sum = sum*10
-    sum = int(sum)
+    if(sum == 0):
+        sum = 1
+    else:
+        sum = sum*10
+        sum = int(sum)
     return sum
