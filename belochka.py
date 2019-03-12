@@ -8,5 +8,3 @@ def squirrel (N):
     sum = sum*10
     sum = int(sum)
     return sum
-chislo = int(input())
-print(squirrel(chislo))
