@@ -5,7 +5,7 @@ def squirrel (N):
         sum = sum*i
     while(sum > 1):
         sum = sum/10
-    if(sum == 0):
+    if(sum == 0 or sum == 1):
         sum = 1
     else:
         sum = sum*10
